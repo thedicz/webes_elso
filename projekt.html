@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbucz Hédi</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>kő - papír - olló játék</h1>
+    <div class="scoreboard">
+        <p>Eredmények:</p>
+        <p>Győzelem: <span id="player-score">0</span></p>
+        <p>Vereség: <span id="computer-score">0</span></p>
+        <p>Döntetlen: <span id="draw-score">0</span></p>
+    </div>
+    <button class="center" onclick="ujra()"> újra </button>
+    <div class="choices">
+        <img src="ko.png" onclick="play('ko')">
+        <img src="papir.png" onclick="play('papir')">
+        <img src="ollo.png" onclick="play('ollo')">
+    </div>
+    <div id="result"></div>
+    <img src="" id="igen">
+    
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,61 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(246,5,106);
+    background: linear-gradient(205deg, rgba(204,79,170,1) 0%, rgba(218,60,132,1) 21%, rgba(240,55,130,1) 41%, rgba(247,164,129,1) 72%, rgba(254,232,163,1) 94%);
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img{
+    transform: rotate(90deg);
+    margin: 20px;
+    margin-top: 60px;
+    filter: invert(1);
+
+}
+img:hover {
+    margin: 20px;
+    filter: invert(1);
+    transform: scale(1.2) translateY(-5px) rotate(90deg);
+    transition: transform 0.2s ease;
+}
+button{
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 10px;
+    border: solid white 2px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+
+    
+}
+.center {
+    display: block;
+    margin: 0 auto;
+
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.scoreboard {
+    margin-bottom: 40px;
+    
+}
+
+.choices button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
